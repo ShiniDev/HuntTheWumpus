@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Game.cpp" "CMakeFiles/huntthewumpus.dir/src/Game.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/Game.cpp.o.d"
-  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/GameMap.cpp" "CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o.d"
-  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Room.cpp" "CMakeFiles/huntthewumpus.dir/src/Room.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/Room.cpp.o.d"
+  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Game.cpp" "CMakeFiles/huntthewumpus.dir/src/Game.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/Game.cpp.o.d"
+  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/GameMap.cpp" "CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o.d"
+  "/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Room.cpp" "CMakeFiles/huntthewumpus.dir/src/Room.cpp.o" "gcc" "CMakeFiles/huntthewumpus.dir/src/Room.cpp.o.d"
   )
 
 # Targets to which this target links.

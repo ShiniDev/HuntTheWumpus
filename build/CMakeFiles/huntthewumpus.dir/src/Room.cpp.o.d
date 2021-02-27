@@ -1,7 +1,7 @@
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.o: \
- /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Room.cpp \
+ /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Room.cpp \
  /usr/include/stdc-predef.h \
- /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/headers/Room.hpp \
+ /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/headers/Room.hpp \
  /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \

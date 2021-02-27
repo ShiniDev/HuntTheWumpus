@@ -8,7 +8,7 @@ Game::Game(){
 
 GameMap Game::initialize_gamemap(){
     std::cout << "\n<Map Settings>\n\n";
-    std::cout << "Map Size (Even number between 4 to 200): ";
+    std::cout << "Map Size (Even number between 4 to 500): ";
     std::string s;
     int n;
     while(true){
@@ -18,8 +18,8 @@ GameMap Game::initialize_gamemap(){
             continue;
         }
         n = std::stoi(s);
-        if(n<4||n>200){
-            std::cout << "Number cannot be less than 4 or greater than 200\n";
+        if(n<4||n>500){
+            std::cout << "Number cannot be less than 4 or greater than 500\n";
             continue;
         }
         if(n%2!=0){
@@ -59,11 +59,11 @@ void Game::initialize_mobs(){
             i--;
             continue;
         }
-        if(i==0)g.gmap[r].bat=true;
+        if(i==0&&g.gmap.size()!=4)g.gmap[r].bat=true; //Bat is disabled if there are 4 rooms
         else if(i==1)g.gmap[r].pit=true;
         else if(i==2)g.gmap[r].wump=true;
     }
-    for(int i = 0; i < g.gmap.size()%10&&g.gmap.size()>10; i++){	//The ratio is 1:10 for pits
+    for(int i = 0; i < g.gmap.size()/10&&g.gmap.size()>10; i++){	//The ratio is 1:10 for pits
         int r = rand()%(g.gmap.size()-1);
         if(g.gmap[r].player==true||g.gmap[r].pit==true||g.gmap[r].bat==true||g.gmap[r].wump==true){
             i--;
@@ -71,7 +71,7 @@ void Game::initialize_mobs(){
         }
         g.gmap[r].pit=true;
     }
-    for(int i = 0;i < g.gmap.size()%15&&g.gmap.size()>15; i++){
+    for(int i = 0;i < g.gmap.size()/15&&g.gmap.size()>15; i++){
         int r = rand()%(g.gmap.size()-1);
         if(g.gmap[r].player==true||g.gmap[r].pit==true||g.gmap[r].bat==true||g.gmap[r].wump==true){
             i--;
@@ -193,7 +193,7 @@ void Game::start(){
                 }
             }
             if(!valid_room){
-                std::cout << "\nInvalid room number on move command\n\n";
+                std::cout << "\nInvalid room number on shoot command\n\n";
                 continue;
             }
             if(g.gmap[n-1].wump==true){
@@ -242,4 +242,33 @@ void Game::start(){
             continue;
         }
     }
+    output_to_file();
+}
+
+void Game::output_to_file(){
+    std::ofstream ofs;
+    ofs.open("src/data/Map.txt",std::ios_base::out);
+    ofs << "<Legend>\n";
+    ofs << "P = Player\n";
+    ofs << "W = Wumpus\n";
+    ofs << "U = Pit\n";
+    ofs << "^ = Bat\n\n";
+    ofs << "   ";
+    for(int i = 0; i < 10; i++){
+        ofs << " " << i << " ";
+    }
+    for(int i = 0; i < g.gmap.size(); i++){
+        if(i%10==0){
+            ofs << "\n";
+            if(i<9)ofs << "00" << i;
+            else if(i < 99) ofs << "0" << i;
+            else ofs << i;
+        }
+        if(g.gmap[i].bat==true)ofs << "|^|";
+        else if(g.gmap[i].pit==true)ofs << "|U|";
+        else if(g.gmap[i].player==true)ofs << "|P|";
+        else if(g.gmap[i].wump==true)ofs << "|W|";
+        else ofs << "| |";
+    }
+    ofs.close();
 }

@@ -210,6 +210,11 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/10/numeric \
   /usr/include/c++/10/bits/stl_numeric.h \
   ../src/headers/Game.hpp \
+  /usr/include/c++/10/fstream \
+  /usr/include/c++/10/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
+  /usr/include/c++/10/bits/fstream.tcc \
   ../src/headers/Player.hpp \
   ../src/headers/GameMap.hpp \
   ../src/headers/Room.hpp \
@@ -222,6 +227,12 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 ../src/headers/Room.hpp:
 
 ../src/headers/GameMap.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h:
+
+/usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h:
+
+/usr/include/c++/10/fstream:
 
 ../src/headers/Game.hpp:
 
@@ -541,6 +552,8 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/10/cstdlib:
 
+/usr/include/c++/10/bits/fstream.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/endian.h:
@@ -630,6 +643,8 @@ CMakeFiles/main.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/10/bits/codecvt.h:
 
 /usr/include/c++/10/numeric:
 

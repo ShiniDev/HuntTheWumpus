@@ -1,7 +1,7 @@
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o: \
- /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/GameMap.cpp \
+ /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/GameMap.cpp \
  /usr/include/stdc-predef.h \
- /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/headers/GameMap.hpp \
+ /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/headers/GameMap.hpp \
  /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
@@ -169,4 +169,4 @@ CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/10/bits/opt_random.h \
  /usr/include/c++/10/bits/random.tcc /usr/include/c++/10/numeric \
  /usr/include/c++/10/bits/stl_numeric.h \
- /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/headers/Room.hpp
+ /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/headers/Room.hpp

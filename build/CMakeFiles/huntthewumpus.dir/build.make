@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus
+CMAKE_SOURCE_DIR = /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build
+CMAKE_BINARY_DIR = /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/huntthewumpus.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/huntthewumpus.dir/flags.make
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.o: CMakeFiles/huntthewumpus.dir/flags.make
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.o: ../src/Room.cpp
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.o: CMakeFiles/huntthewumpus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huntthewumpus.dir/src/Room.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/Room.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/Room.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/Room.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Room.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/huntthewumpus.dir/src/Room.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/Room.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/Room.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/Room.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Room.cpp
 
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huntthewumpus.dir/src/Room.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Room.cpp > CMakeFiles/huntthewumpus.dir/src/Room.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Room.cpp > CMakeFiles/huntthewumpus.dir/src/Room.cpp.i
 
 CMakeFiles/huntthewumpus.dir/src/Room.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huntthewumpus.dir/src/Room.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Room.cpp -o CMakeFiles/huntthewumpus.dir/src/Room.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Room.cpp -o CMakeFiles/huntthewumpus.dir/src/Room.cpp.s
 
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o: CMakeFiles/huntthewumpus.dir/flags.make
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o: ../src/GameMap.cpp
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o: CMakeFiles/huntthewumpus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/GameMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/GameMap.cpp
 
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/GameMap.cpp > CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/GameMap.cpp > CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.i
 
 CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/GameMap.cpp -o CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/GameMap.cpp -o CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.s
 
 CMakeFiles/huntthewumpus.dir/src/Game.cpp.o: CMakeFiles/huntthewumpus.dir/flags.make
 CMakeFiles/huntthewumpus.dir/src/Game.cpp.o: ../src/Game.cpp
 CMakeFiles/huntthewumpus.dir/src/Game.cpp.o: CMakeFiles/huntthewumpus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/huntthewumpus.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/Game.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/Game.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/Game.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/huntthewumpus.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/huntthewumpus.dir/src/Game.cpp.o -MF CMakeFiles/huntthewumpus.dir/src/Game.cpp.o.d -o CMakeFiles/huntthewumpus.dir/src/Game.cpp.o -c /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Game.cpp
 
 CMakeFiles/huntthewumpus.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/huntthewumpus.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Game.cpp > CMakeFiles/huntthewumpus.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Game.cpp > CMakeFiles/huntthewumpus.dir/src/Game.cpp.i
 
 CMakeFiles/huntthewumpus.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/huntthewumpus.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/src/Game.cpp -o CMakeFiles/huntthewumpus.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/src/Game.cpp -o CMakeFiles/huntthewumpus.dir/src/Game.cpp.s
 
 # Object files for target huntthewumpus
 huntthewumpus_OBJECTS = \
@@ -125,7 +125,7 @@ libhuntthewumpus.a: CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o
 libhuntthewumpus.a: CMakeFiles/huntthewumpus.dir/src/Game.cpp.o
 libhuntthewumpus.a: CMakeFiles/huntthewumpus.dir/build.make
 libhuntthewumpus.a: CMakeFiles/huntthewumpus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libhuntthewumpus.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libhuntthewumpus.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/huntthewumpus.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/huntthewumpus.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/huntthewumpus.dir/clean:
 .PHONY : CMakeFiles/huntthewumpus.dir/clean
 
 CMakeFiles/huntthewumpus.dir/depend:
-	cd /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build /home/marklaurente/Documents/Programming/C++/GitHubRepositories/C---Stuff/HuntTheWumpus/build/CMakeFiles/huntthewumpus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build /home/marklaurente/Documents/Programming/C++/GitHubRepositories/HuntTheWumpus/build/CMakeFiles/huntthewumpus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/huntthewumpus.dir/depend
 
