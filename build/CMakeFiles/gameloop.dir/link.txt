@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgameloop.a CMakeFiles/gameloop.dir/src/GameLoop.cpp.o
+/usr/bin/ranlib libgameloop.a

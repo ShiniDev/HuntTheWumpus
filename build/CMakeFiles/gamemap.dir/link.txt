@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgamemap.a CMakeFiles/gamemap.dir/src/GameMap.cpp.o
+/usr/bin/ranlib libgamemap.a

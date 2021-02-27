@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhuntthewumpus.a CMakeFiles/huntthewumpus.dir/src/Room.cpp.o CMakeFiles/huntthewumpus.dir/src/GameMap.cpp.o CMakeFiles/huntthewumpus.dir/src/Game.cpp.o
+/usr/bin/ranlib libhuntthewumpus.a
