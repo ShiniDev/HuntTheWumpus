@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -Wpedantic -std=c++14 -ggdb -O3 CMakeFiles/main.dir/main.cpp.o -o main  libhuntthewumpus.a 
