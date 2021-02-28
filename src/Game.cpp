@@ -8,7 +8,7 @@ Game::Game(){
 
 GameMap Game::initialize_gamemap(){
     std::cout << "\n<Map Settings>\n\n";
-    std::cout << "Map Size (Even number between 4 to 500): ";
+    std::cout << "Map Size (Even number greater than or equal to 4): ";
     std::string s;
     int n;
     while(true){
@@ -18,8 +18,8 @@ GameMap Game::initialize_gamemap(){
             continue;
         }
         n = std::stoi(s);
-        if(n<4||n>500){
-            std::cout << "Number cannot be less than 4 or greater than 500\n";
+        if(n<4){
+            std::cout << "Number cannot be less than 4\n";
             continue;
         }
         if(n%2!=0){
